@@ -1,16 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
-import Link from 'gatsby-link'
-
-const AboutPage = () => {
-    return (
-        <div>
-            <h1>About</h1>
-            <Link to="/">Home</Link>
-        </div>
-    )
-}
-=======
 import Navbar from './../components/navbar'
 
 const AboutPage = () => (
@@ -20,6 +8,5 @@ const AboutPage = () => (
     
   </div>
 )
->>>>>>> a61d3cb1a2b40b0a9322144d535af46a1efedcd8
 
 export default AboutPage
