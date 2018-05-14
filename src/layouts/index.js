@@ -1,8 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+<<<<<<< HEAD
 import './gatstrap.scss'
 
+=======
+import Navbar from './../components/navbar'
+>>>>>>> a61d3cb1a2b40b0a9322144d535af46a1efedcd8
 import Header from '../components/header'
 import './index.css'
 
@@ -16,6 +20,10 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
+<<<<<<< HEAD
+=======
+    <Navbar />
+>>>>>>> a61d3cb1a2b40b0a9322144d535af46a1efedcd8
     <div
       style={{
         margin: '0 auto',
@@ -26,7 +34,10 @@ const Layout = ({ children, data }) => (
     >
       {children()}
     </div>
+<<<<<<< HEAD
     <a href="#" className="btn btn-primary">Bootstrap</a>
+=======
+>>>>>>> a61d3cb1a2b40b0a9322144d535af46a1efedcd8
   </div>
 )
 

@@ -6,7 +6,10 @@ yarn-error.log
 # Build directory
 /public
 .DS_Store
+<<<<<<< HEAD
 
 # vim stuff
 *.swp
 *~
+=======
+>>>>>>> a61d3cb1a2b40b0a9322144d535af46a1efedcd8

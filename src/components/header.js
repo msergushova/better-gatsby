@@ -1,6 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
+<<<<<<< HEAD
 import Navbar from './navbar'
+=======
+>>>>>>> a61d3cb1a2b40b0a9322144d535af46a1efedcd8
 
 const Header = ({ siteTitle }) => (
   <div
@@ -27,7 +30,10 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+<<<<<<< HEAD
       <Navbar />
+=======
+>>>>>>> a61d3cb1a2b40b0a9322144d535af46a1efedcd8
     </div>
   </div>
 )
